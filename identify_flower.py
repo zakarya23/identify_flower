@@ -40,6 +40,9 @@ MLPClassifier (activation = 'relu', alpha = 0.001, batch_size = 'auto', beta_1 =
                power_t = 0.5, random_state = None, shuffle = True, solver = 'sgd', tol = 0.001, 
                validation_fraction = 0.1, verbose = False, warm_start = False)
 
+
+print(mlp.score(X_test, Y_test))
+
 def colour_stats(image): 
     (R, G, B) = image.split() 
     features = [np.mean(R), np.mean(G), np.mean(B), np.std(R), np.std(G), np.std(B)]
