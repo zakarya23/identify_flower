@@ -1,2 +1,2 @@
 # identify_flower
-Using Macine Learning to identify different types of flowers
+Using simple Machine Learning Algorithms such as sklearn, numpy, seaborn to identify different types of flowers. 
